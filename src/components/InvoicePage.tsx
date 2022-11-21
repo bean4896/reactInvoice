@@ -405,7 +405,7 @@ const InvoicePage: FC<Props> = ({ data, pdfMode, onChange }) => {
                 </Text>
               </View>
             </View>
-            <View className="flex" pdfMode={pdfMode}>
+            {/* <View className="flex" pdfMode={pdfMode}>
               <View className="w-50 p-5" pdfMode={pdfMode}>
                 <EditableInput
                   value={invoice.taxLabel}
@@ -418,7 +418,7 @@ const InvoicePage: FC<Props> = ({ data, pdfMode, onChange }) => {
                   {saleTax?.toFixed(2)}
                 </Text>
               </View>
-            </View>
+            </View> */}
             <View className="flex bg-gray p-5" pdfMode={pdfMode}>
               <View className="w-50 p-5" pdfMode={pdfMode}>
                 <EditableInput
